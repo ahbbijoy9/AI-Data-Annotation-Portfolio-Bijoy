@@ -3,140 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Abul Hossain Bijoy - Professional AI Data Annotation & GIS Mapping Specialist. Expert in CVAT, Labelbox, 3D Building Footprints, Road Centerlines & Computer Vision Datasets. 99%+ Accuracy." />
-  <meta name="keywords" content="AI Data Annotation, GIS Mapping, CVAT, Labelbox, Computer Vision, Building Footprints, Data Labeling Specialist" />
+  <meta name="description" content="Abul Hossain Bijoy — AI Data Annotation & GIS Mapping Specialist. Expert in CVAT, Labelbox, 3D Building Footprints, Road Centerlines & Computer Vision Datasets. 99%+ Accuracy." />
   <meta name="author" content="Abul Hossain Bijoy" />
   <title>Abul Hossain Bijoy | AI Data Annotation & GIS Mapping Specialist</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <!-- Header / Navigation -->
-  <header id="header">
-    <div class="logo">Bijoy<span>.AI</span></div>
-    <nav class="nav-desktop">
-      <a href="#home">Home</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#demo">Demo</a>
-      <a href="#testimonials">Reviews</a>
-      <a href="#contact" class="btn-nav">Contact Me</a>
-    </nav>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-      <i class="fa-solid fa-bars"></i>
-    </button>
-  </header>
 
-  <!-- Mobile Nav -->
-  <div class="mobile-nav" id="mobileNav">
-    <a href="#home">Home</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#demo">Demo</a>
-    <a href="#testimonials">Reviews</a>
-    <a href="#contact">Contact Me</a>
-  </div>
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Bijoy<span>.AI</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Me</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-  <!-- Hero / Home Section -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <div class="profile-photo-wrap">
-        <img src="Profile_Photo.png" alt="Abul Hossain Bijoy - AI Data Annotation Specialist" class="profile-photo" />
-        <span class="online-dot" title="Available for work"></span>
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-photo">
+        <img src="Profile_Photo.png" alt="Abul Hossain Bijoy" />
+        <span class="status-dot"></span>
       </div>
-      <span class="badge"><i class="fa-solid fa-check-circle"></i> 99%+ Accuracy Standard</span>
-      <h1>Hi, I'm <span>Abul Hossain Bijoy</span></h1>
-      <h2>AI Data Annotation & GIS Mapping Specialist</h2>
-      <p class="slogan">Specialized in CVAT, Labelbox, 3D Building Footprints, Road Centerlines & Computer Vision Datasets.</p>
-      <p class="hero-desc">Detail-oriented professional delivering high-precision computer vision and geospatial datasets for AI/ML models. Open for global remote collaborations with engineering teams worldwide.</p>
-      <div class="hero-buttons">
-        <a href="#contact" class="btn-primary"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
-        <a href="#skills" class="btn-secondary"><i class="fa-solid fa-layer-group"></i> Explore Skills</a>
-        <a href="#demo" class="btn-secondary"><i class="fa-brands fa-youtube"></i> Watch Demos</a>
-      </div>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-num">99%+</span>
-          <span class="stat-label">Accuracy</span>
+      <div class="hero-text">
+        <p class="hero-badge"><i class="fa-solid fa-circle-check"></i> 99%+ Accuracy Standard</p>
+        <h1>Abul Hossain <span>Bijoy</span></h1>
+        <h2>AI Data Annotation & GIS Mapping Specialist</h2>
+        <p class="hero-tagline">Specialized in CVAT, Labelbox, 3D Building Footprints, Road Centerlines & Computer Vision Datasets.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+          <a href="#projects" class="btn btn-outline"><i class="fa-solid fa-briefcase"></i> View Projects</a>
+          <a href="#demo" class="btn btn-outline"><i class="fa-brands fa-youtube"></i> Watch Demo</a>
         </div>
-        <div class="stat">
-          <span class="stat-num">3+</span>
-          <span class="stat-label">Years Experience</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">Global</span>
-          <span class="stat-label">Remote Ready</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">Team</span>
-          <span class="stat-label">Scaling Ready</span>
+        <div class="hero-stats">
+          <div><strong>99%+</strong><span>Accuracy</span></div>
+          <div><strong>3+</strong><span>Years Exp.</span></div>
+          <div><strong>Global</strong><span>Remote Ready</span></div>
+          <div><strong>Team</strong><span>Scaling Ready</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About / Quick Intro -->
-  <section id="about" class="about-section">
-    <div class="section-container">
-      <h2 class="section-title">About Me</h2>
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p>Professional background and what I bring to every project</p>
+      </div>
       <div class="about-grid">
-        <div class="about-text">
+        <div class="about-content">
           <p>I am a professional <strong>AI Data Annotation & GIS Mapping Specialist</strong> with hands-on expertise in building high-precision computer vision and geospatial datasets for AI models.</p>
           <p>Proficient in industry-standard tools including <strong>CVAT, Labelbox, Ginger</strong>, and custom enterprise platforms. I specialize in GIS satellite map labeling, video tracking, building extraction, and complex polygon/polyline segmentation while maintaining a <strong>99%+ accuracy standard</strong>.</p>
-          <p>Currently contributing to <strong>RYU Data Corporation</strong> and open for remote project collaborations with global engineering teams. I am also the <strong>Founder & Managing Lead</strong> of <a href="https://freelancebd24.top" target="_blank" rel="noopener">FreelanceBD24.top</a> and lead a dedicated annotation team ready to scale for larger projects.</p>
-          <div class="languages">
-            <h4><i class="fa-solid fa-language"></i> Languages</h4>
-            <div class="lang-tags">
-              <span>Bengali — Native</span>
-              <span>English — Fluent</span>
-              <span>Tagalog — Conversational</span>
+          <p>Currently contributing to <strong>RYU Data Corporation</strong> and open for remote collaborations with global engineering teams. I am also the <strong>Founder & Managing Lead</strong> of <a href="https://freelancebd24.top" target="_blank" rel="noopener">FreelanceBD24.top</a> and lead a dedicated annotation team ready to scale for larger projects.</p>
+          <div class="lang-row">
+            <span class="lang-label"><i class="fa-solid fa-language"></i> Languages</span>
+            <span class="chip">Bengali — Native</span>
+            <span class="chip">English — Fluent</span>
+            <span class="chip">Tagalog — Conversational</span>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="info-card">
+            <i class="fa-solid fa-globe"></i>
+            <div>
+              <h4>Global Ready</h4>
+              <p>Available worldwide with flexible timezone support</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fa-solid fa-users"></i>
+            <div>
+              <h4>Team Support</h4>
+              <p>Can scale workforce when projects need more capacity</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <div>
+              <h4>Quality First</h4>
+              <p>Strict QA/QC process ensuring guideline compliance</p>
             </div>
           </div>
         </div>
-        <div class="about-highlights">
-          <div class="highlight-card">
-            <i class="fa-solid fa-globe"></i>
-            <h4>Global Ready</h4>
-            <p>Available for clients worldwide with flexible timezone support</p>
-          </div>
-          <div class="highlight-card">
-            <i class="fa-solid fa-users"></i>
-            <h4>Team Support</h4>
-            <p>Can manage additional workforce when projects require scaling</p>
-          </div>
-          <div class="highlight-card">
-            <i class="fa-solid fa-shield-halved"></i>
-            <h4>Quality First</h4>
-            <p>Strict QA/QC process ensuring guideline compliance</p>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="skills-section">
-    <div class="section-container">
-      <h2 class="section-title">Core Expertise</h2>
-      <p class="section-subtitle">Comprehensive AI Data Annotation & GIS capabilities</p>
-      
+  <!-- ========== SKILLS ========== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>Core Expertise</h2>
+        <p>Comprehensive AI Data Annotation & GIS capabilities</p>
+      </div>
       <div class="skills-grid">
         <div class="skill-card">
           <div class="skill-icon"><i class="fa-solid fa-draw-polygon"></i></div>
           <h3>Annotation Tools</h3>
           <ul>
-            <li>CVAT (Computer Vision Annotation Tool)</li>
+            <li>CVAT</li>
             <li>Labelbox</li>
             <li>Ginger-2025</li>
             <li>Custom Enterprise Platforms</li>
           </ul>
         </div>
-
         <div class="skill-card">
           <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
           <h3>Geospatial & Mapping</h3>
@@ -148,7 +136,6 @@
             <li>Polygon & Polyline Masking</li>
           </ul>
         </div>
-
         <div class="skill-card">
           <div class="skill-icon"><i class="fa-solid fa-cube"></i></div>
           <h3>3D & Segmentation</h3>
@@ -160,30 +147,27 @@
             <li>Semantic Segmentation</li>
           </ul>
         </div>
-
         <div class="skill-card">
           <div class="skill-icon"><i class="fa-solid fa-vector-square"></i></div>
           <h3>2D Annotation</h3>
           <ul>
             <li>High-Precision Polygon Tagging</li>
-            <li>2D Bounding Box (Rectangle / Rotated)</li>
-            <li>Polyline & Multi-Line Annotation</li>
+            <li>2D Bounding Box (Rect / Rotated)</li>
+            <li>Polyline & Multi-Line</li>
             <li>Keypoint & Skeleton Tagging</li>
             <li>Landmark, Circle & Ellipse</li>
           </ul>
         </div>
-
         <div class="skill-card">
           <div class="skill-icon"><i class="fa-solid fa-video"></i></div>
           <h3>Video & Tracking</h3>
           <ul>
             <li>Multi-Object Video Tracking (MOT)</li>
-            <li>Frame-by-Frame Object Interpolation</li>
+            <li>Frame-by-Frame Interpolation</li>
             <li>Class Attribute & Meta-Tagging</li>
             <li>Object Tracking across frames</li>
           </ul>
         </div>
-
         <div class="skill-card">
           <div class="skill-icon"><i class="fa-solid fa-check-double"></i></div>
           <h3>Quality Assurance</h3>
@@ -191,53 +175,52 @@
             <li>99%+ Accuracy Standard</li>
             <li>Detailed QA/QC Process</li>
             <li>Guideline Compliance</li>
-            <li>Unlimited Revisions until Client Satisfaction</li>
+            <li>Unlimited Revisions</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Experience Section -->
-  <section id="experience" class="experience-section">
-    <div class="section-container">
-      <h2 class="section-title">Work Experience</h2>
-      <p class="section-subtitle">Real-world annotation projects delivering production-ready datasets</p>
-
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2>Work Experience</h2>
+        <p>Real-world annotation projects delivering production-ready datasets</p>
+      </div>
       <div class="timeline">
         <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
             <span class="timeline-date">July 2025 – Present</span>
-            <h3>GIS & Data Annotation Specialist (Remote)</h3>
-            <h4>RYU Data Corporation</h4>
+            <h3>GIS & Data Annotation Specialist</h3>
+            <h4>RYU Data Corporation · Remote</h4>
             <ul>
-              <li>Perform high-precision 2D & 3D annotation for AI/ML training datasets</li>
-              <li>Create Building Footprints, Road Networks & Land Cover annotations from satellite imagery</li>
-              <li>Perform Image, Video & Geospatial Annotation using CVAT, Labelbox & Ginger</li>
-              <li>Maintain 99%+ annotation accuracy through detailed QA/QC and guideline compliance</li>
+              <li>High-precision 2D & 3D annotation for AI/ML training datasets</li>
+              <li>Building Footprints, Road Networks & Land Cover from satellite imagery</li>
+              <li>Image, Video & Geospatial Annotation using CVAT, Labelbox & Ginger</li>
+              <li>Maintain 99%+ accuracy through detailed QA/QC and guideline compliance</li>
             </ul>
           </div>
         </div>
-
         <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
             <span class="timeline-date">2025 – Present</span>
-            <h3>AI Data Annotator — Freelance / Remote</h3>
-            <h4>Independent AI Annotation Projects</h4>
+            <h3>AI Data Annotator — Freelance</h3>
+            <h4>Independent AI Annotation Projects · Remote</h4>
             <ul>
-              <li>Perform Image, Video, 3D & Satellite Map Annotation for AI/ML datasets</li>
-              <li>Create Bounding Box, Polygon & Polyline annotations</li>
-              <li>Perform Object Tracking, Semantic Segmentation & Image Segmentation</li>
-              <li>Deliver quality-focused annotations according to project requirements</li>
+              <li>Image, Video, 3D & Satellite Map Annotation for AI/ML datasets</li>
+              <li>Bounding Box, Polygon & Polyline annotations</li>
+              <li>Object Tracking, Semantic & Instance Segmentation</li>
+              <li>Quality-focused delivery according to project requirements</li>
             </ul>
           </div>
         </div>
-
         <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
             <span class="timeline-date">Founder</span>
             <h3>Founder & Managing Lead</h3>
             <h4><a href="https://freelancebd24.top" target="_blank" rel="noopener">FreelanceBD24.top</a></h4>
@@ -250,190 +233,135 @@
         </div>
       </div>
 
-      <!-- Work Samples / Shorts -->
-      <div class="work-samples">
+      <div class="demo-shorts">
         <h3><i class="fa-brands fa-youtube"></i> Live Work Demonstrations</h3>
-        <div class="samples-grid">
-          <a href="https://www.youtube.com/shorts/JsuwKmU4Kvo" target="_blank" rel="noopener" class="sample-card">
-            <div class="sample-thumb">
-              <i class="fa-brands fa-youtube"></i>
-              <span>Watch Short</span>
-            </div>
-            <p>Real Annotation Workflow Demo #1</p>
+        <div class="shorts-grid">
+          <a href="https://www.youtube.com/shorts/JsuwKmU4Kvo" target="_blank" rel="noopener" class="short-card">
+            <div class="short-play"><i class="fa-brands fa-youtube"></i></div>
+            <span>Annotation Workflow Demo #1</span>
           </a>
-          <a href="https://www.youtube.com/shorts/M6vo9xz1WRA" target="_blank" rel="noopener" class="sample-card">
-            <div class="sample-thumb">
-              <i class="fa-brands fa-youtube"></i>
-              <span>Watch Short</span>
-            </div>
-            <p>Real Annotation Workflow Demo #2</p>
+          <a href="https://www.youtube.com/shorts/M6vo9xz1WRA" target="_blank" rel="noopener" class="short-card">
+            <div class="short-play"><i class="fa-brands fa-youtube"></i></div>
+            <span>Annotation Workflow Demo #2</span>
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Projects Gallery Section -->
-  <section id="projects" class="projects-section">
-    <div class="section-container">
-      <h2 class="section-title">Projects Gallery</h2>
-      <p class="section-subtitle">Key annotation work types I deliver for AI & GIS clients worldwide</p>
-
+  <!-- ========== PROJECTS ========== -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>Projects Gallery</h2>
+        <p>Key annotation work types I deliver for AI & GIS clients worldwide</p>
+      </div>
       <div class="projects-grid">
         <div class="project-card">
           <div class="project-icon"><i class="fa-solid fa-building"></i></div>
           <h3>3D Building Footprints</h3>
           <p>High-precision extraction of building outlines and roof geometry from satellite & aerial imagery for urban planning and AI training.</p>
-          <div class="project-tags">
-            <span>CVAT</span>
-            <span>Polygon</span>
-            <span>GIS</span>
-          </div>
+          <div class="tags"><span>CVAT</span><span>Polygon</span><span>GIS</span></div>
         </div>
-
         <div class="project-card">
           <div class="project-icon"><i class="fa-solid fa-road"></i></div>
           <h3>Road Centerline Networks</h3>
-          <p>Accurate road centerline alignment, multi-line annotation and network mapping from satellite imagery for navigation & mapping systems.</p>
-          <div class="project-tags">
-            <span>Polyline</span>
-            <span>GIS</span>
-            <span>Labelbox</span>
-          </div>
+          <p>Accurate road centerline alignment, multi-line annotation and network mapping from satellite imagery for navigation systems.</p>
+          <div class="tags"><span>Polyline</span><span>GIS</span><span>Labelbox</span></div>
         </div>
-
         <div class="project-card">
           <div class="project-icon"><i class="fa-solid fa-layer-group"></i></div>
           <h3>Semantic & Instance Segmentation</h3>
           <p>Pixel-level and object-level segmentation for computer vision models including panoptic segmentation workflows.</p>
-          <div class="project-tags">
-            <span>Segmentation</span>
-            <span>CVAT</span>
-            <span>AI/ML</span>
-          </div>
+          <div class="tags"><span>Segmentation</span><span>CVAT</span><span>AI/ML</span></div>
         </div>
-
         <div class="project-card">
           <div class="project-icon"><i class="fa-solid fa-video"></i></div>
           <h3>Multi-Object Video Tracking</h3>
           <p>Frame-by-frame object tracking, interpolation and attribute tagging for video datasets used in autonomous systems.</p>
-          <div class="project-tags">
-            <span>MOT</span>
-            <span>Video</span>
-            <span>Tracking</span>
-          </div>
+          <div class="tags"><span>MOT</span><span>Video</span><span>Tracking</span></div>
         </div>
-
         <div class="project-card">
           <div class="project-icon"><i class="fa-solid fa-cube"></i></div>
           <h3>3D Cuboid Annotation</h3>
           <p>3D bounding boxes and structural geometry annotation for autonomous driving, robotics and spatial AI applications.</p>
-          <div class="project-tags">
-            <span>3D Cuboid</span>
-            <span>LiDAR</span>
-            <span>CVAT</span>
-          </div>
+          <div class="tags"><span>3D Cuboid</span><span>LiDAR</span><span>CVAT</span></div>
         </div>
-
         <div class="project-card">
           <div class="project-icon"><i class="fa-solid fa-map"></i></div>
           <h3>Land Cover & Satellite Mapping</h3>
           <p>Large-scale land cover classification, vegetation and infrastructure mapping from multi-spectral satellite data.</p>
-          <div class="project-tags">
-            <span>Satellite</span>
-            <span>GIS</span>
-            <span>Land Cover</span>
-          </div>
+          <div class="tags"><span>Satellite</span><span>GIS</span><span>Land Cover</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Demo / YouTube Section -->
-  <section id="demo" class="demo-section">
-    <div class="section-container">
-      <h2 class="section-title">Demo & Tutorials</h2>
-      <p class="section-subtitle">Watch my complete playlists on industry-standard annotation tools</p>
-
-      <div class="playlist-grid">
-        <a href="https://www.youtube.com/playlist?list=PLMf0ktokQtoY" target="_blank" rel="noopener" class="playlist-card">
-          <div class="playlist-icon"><i class="fa-solid fa-draw-polygon"></i></div>
+  <!-- ========== DEMO ========== -->
+  <section class="section" id="demo">
+    <div class="container">
+      <div class="section-header">
+        <h2>Demo & Tutorials</h2>
+        <p>Complete playlists on industry-standard annotation tools</p>
+      </div>
+      <div class="demo-grid">
+        <a href="https://www.youtube.com/playlist?list=PLMf0ktokQtoY" target="_blank" rel="noopener" class="demo-card">
+          <div class="demo-icon"><i class="fa-solid fa-draw-polygon"></i></div>
           <h3>CVAT Tutorials</h3>
-          <p>Complete guide to Computer Vision Annotation Tool — from basics to advanced workflows</p>
-          <span class="playlist-link"><i class="fa-brands fa-youtube"></i> View Full Playlist</span>
+          <p>Complete guide to Computer Vision Annotation Tool — from basics to advanced workflows.</p>
+          <span class="demo-link"><i class="fa-brands fa-youtube"></i> View Full Playlist</span>
         </a>
-
-        <a href="https://www.youtube.com/playlist?list=PLTjekSHCtKEU" target="_blank" rel="noopener" class="playlist-card">
-          <div class="playlist-icon"><i class="fa-solid fa-tags"></i></div>
+        <a href="https://www.youtube.com/playlist?list=PLTjekSHCtKEU" target="_blank" rel="noopener" class="demo-card">
+          <div class="demo-icon"><i class="fa-solid fa-tags"></i></div>
           <h3>Labelbox Tutorials</h3>
-          <p>Master Labelbox for high-quality image, video and geospatial data labeling projects</p>
-          <span class="playlist-link"><i class="fa-brands fa-youtube"></i> View Full Playlist</span>
+          <p>Master Labelbox for high-quality image, video and geospatial data labeling projects.</p>
+          <span class="demo-link"><i class="fa-brands fa-youtube"></i> View Full Playlist</span>
         </a>
       </div>
-
-      <div class="channel-cta">
-        <p>Subscribe to my channel for more professional annotation content</p>
-        <a href="https://www.youtube.com/@AnnotationCareerwithBijoy" target="_blank" rel="noopener" class="btn-primary">
+      <div class="channel-box">
+        <p>Subscribe for more professional annotation content</p>
+        <a href="https://www.youtube.com/@AnnotationCareerwithBijoy" target="_blank" rel="noopener" class="btn btn-primary">
           <i class="fa-brands fa-youtube"></i> Annotation Career with Bijoy
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials-section">
-    <div class="section-container">
-      <h2 class="section-title">Client Feedback</h2>
-      <p class="section-subtitle">What clients say about working with me</p>
-
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="quote">"Exceptional accuracy on our building footprint project. Bijoy delivered on time and the quality exceeded our expectations. Highly recommended for GIS annotation work."</p>
-          <div class="client-info">
-            <div class="client-avatar">R</div>
+  <!-- ========== REVIEWS ========== -->
+  <section class="section section-alt" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <h2>Client Feedback</h2>
+        <p>What clients say about working with me</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Exceptional accuracy on our building footprint project. Bijoy delivered on time and the quality exceeded our expectations. Highly recommended for GIS annotation work.”</p>
+          <div class="reviewer">
+            <div class="avatar">R</div>
             <div>
               <strong>Project Manager</strong>
               <span>GIS / Mapping Client</span>
             </div>
           </div>
         </div>
-
-        <div class="testimonial-card">
-          <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="quote">"Very professional communication and flexible with our timezone. The CVAT annotations were clean and required almost zero revisions. Will hire again."</p>
-          <div class="client-info">
-            <div class="client-avatar">A</div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Very professional communication and flexible with our timezone. The CVAT annotations were clean and required almost zero revisions. Will hire again.”</p>
+          <div class="reviewer">
+            <div class="avatar">A</div>
             <div>
               <strong>AI Startup Founder</strong>
               <span>Computer Vision Team</span>
             </div>
           </div>
         </div>
-
-        <div class="testimonial-card">
-          <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p class="quote">"Reliable partner for large-volume labeling. When we needed more capacity he scaled with his team smoothly. Quality remained consistent throughout."</p>
-          <div class="client-info">
-            <div class="client-avatar">S</div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Reliable partner for large-volume labeling. When we needed more capacity he scaled with his team smoothly. Quality remained consistent throughout.”</p>
+          <div class="reviewer">
+            <div class="avatar">S</div>
             <div>
               <strong>Data Operations Lead</strong>
               <span>Enterprise AI Project</span>
@@ -441,45 +369,44 @@
           </div>
         </div>
       </div>
-
-      <p class="testimonial-note"><i class="fa-solid fa-info-circle"></i> Testimonials reflect typical client feedback based on delivered quality standards. Real project references available upon request.</p>
     </div>
   </section>
 
-  <!-- Why Hire Me Section -->
-  <section id="why-me" class="why-section">
-    <div class="section-container">
-      <h2 class="section-title">Why Hire Me?</h2>
-      <p class="section-subtitle">What makes me the perfect choice for your annotation projects</p>
-
+  <!-- ========== WHY ME ========== -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Hire Me?</h2>
+        <p>What makes me the right choice for your annotation projects</p>
+      </div>
       <div class="why-grid">
         <div class="why-card">
-          <div class="why-num">01</div>
+          <span class="why-num">01</span>
           <h3>Unlimited Revisions</h3>
           <p>I revise until you are 100% satisfied. Your project success is my priority.</p>
         </div>
         <div class="why-card">
-          <div class="why-num">02</div>
+          <span class="why-num">02</span>
           <h3>99%+ Accuracy</h3>
           <p>Industry-leading precision with rigorous QA/QC on every single annotation.</p>
         </div>
         <div class="why-card">
-          <div class="why-num">03</div>
+          <span class="why-num">03</span>
           <h3>On-Time Delivery</h3>
-          <p>Strict deadlines followed. Time-to-time updates so you always know the status.</p>
+          <p>Strict deadlines followed. Regular updates so you always know the status.</p>
         </div>
         <div class="why-card">
-          <div class="why-num">04</div>
+          <span class="why-num">04</span>
           <h3>Regular Communication</h3>
           <p>Daily or as-needed updates. Transparent process from start to finish.</p>
         </div>
         <div class="why-card">
-          <div class="why-num">05</div>
+          <span class="why-num">05</span>
           <h3>Flexible Timezone</h3>
-          <p>I adapt to your country's working hours. No objections — client convenience first.</p>
+          <p>I adapt to your country's working hours. Client convenience comes first.</p>
         </div>
         <div class="why-card">
-          <div class="why-num">06</div>
+          <span class="why-num">06</span>
           <h3>Team Scaling Ready</h3>
           <p>Need more annotators? I can manage additional workforce for larger projects.</p>
         </div>
@@ -487,69 +414,69 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-    <div class="section-container">
-      <h2 class="section-title">Let's Work Together</h2>
-      <p class="section-subtitle">Available for global remote AI & GIS annotation projects. Let's discuss your requirements.</p>
-
+  <!-- ========== CONTACT ========== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Let's Work Together</h2>
+        <p>Available for global remote AI & GIS annotation projects</p>
+      </div>
       <div class="contact-grid">
-        <a href="mailto:ahbbijoy9@gmail.com" class="contact-card">
+        <a href="mailto:ahbbijoy9@gmail.com" class="contact-item">
           <i class="fa-solid fa-envelope"></i>
           <span>Email</span>
           <strong>ahbbijoy9@gmail.com</strong>
         </a>
-        <a href="https://www.linkedin.com/in/abul-hossain-bijoy" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://www.linkedin.com/in/abul-hossain-bijoy" target="_blank" rel="noopener" class="contact-item">
           <i class="fa-brands fa-linkedin"></i>
           <span>LinkedIn</span>
           <strong>Abul Hossain Bijoy</strong>
         </a>
-        <a href="https://x.com/BijoyAnnotator" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://x.com/BijoyAnnotator" target="_blank" rel="noopener" class="contact-item">
           <i class="fa-brands fa-x-twitter"></i>
           <span>X (Twitter)</span>
           <strong>@BijoyAnnotator</strong>
         </a>
-        <a href="https://t.me/Annotation_Career_with_Bijoy" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://t.me/Annotation_Career_with_Bijoy" target="_blank" rel="noopener" class="contact-item">
           <i class="fa-brands fa-telegram"></i>
           <span>Telegram</span>
           <strong>Annotation Career</strong>
         </a>
-        <a href="https://www.facebook.com/DataLabelingCareer" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://www.facebook.com/DataLabelingCareer" target="_blank" rel="noopener" class="contact-item">
           <i class="fa-brands fa-facebook"></i>
           <span>Facebook</span>
           <strong>Data Labeling Career</strong>
         </a>
-        <a href="https://bsky.app/profile/bijoy9.bsky.social" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://bsky.app/profile/bijoy9.bsky.social" target="_blank" rel="noopener" class="contact-item">
           <i class="fa-brands fa-bluesky"></i>
           <span>Bluesky</span>
           <strong>@bijoy9.bsky.social</strong>
         </a>
-        <a href="https://freelancebd24.top" target="_blank" rel="noopener" class="contact-card">
+        <a href="https://freelancebd24.top" target="_blank" rel="noopener" class="contact-item">
           <i class="fa-solid fa-globe"></i>
           <span>Website</span>
           <strong>FreelanceBD24.top</strong>
         </a>
-        <a href="tel:+8801865545759" class="contact-card">
+        <a href="tel:+8801865545759" class="contact-item">
           <i class="fa-solid fa-phone"></i>
           <span>Phone / WhatsApp</span>
           <strong>+880 1865-545759</strong>
         </a>
       </div>
-
-      <div class="final-cta">
+      <div class="contact-cta">
         <p>Ready to start your next high-quality annotation project?</p>
-        <a href="mailto:ahbbijoy9@gmail.com" class="btn-primary btn-large">
+        <a href="mailto:ahbbijoy9@gmail.com" class="btn btn-primary btn-lg">
           <i class="fa-solid fa-paper-plane"></i> Send Me an Email
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-content">
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
       <div class="footer-brand">
-        <div class="logo">Bijoy<span>.AI</span></div>
+        <a href="#home" class="nav-logo">Bijoy<span>.AI</span></a>
         <p>AI Data Annotation & GIS Mapping Specialist</p>
       </div>
       <div class="footer-links">
@@ -557,10 +484,9 @@
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#demo">Demo</a>
         <a href="#contact">Contact</a>
       </div>
-      <p class="copyright">© 2025–2026 Abul Hossain Bijoy. Built for long-term professional use across all marketplaces.</p>
+      <p class="footer-copy">© 2025–2026 Abul Hossain Bijoy. Built for long-term professional use.</p>
     </div>
   </footer>
 
